@@ -1,0 +1,12 @@
+
+
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+
+float C,F;  //用來儲存小數
+cin>>F;
+C=(F-32)*5/9;
+cout<<C;
